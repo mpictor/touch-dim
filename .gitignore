@@ -1,0 +1,4 @@
+build-attiny
+.qmake.stash
+Makefile
+touch-pwm.pro.user
