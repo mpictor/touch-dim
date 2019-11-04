@@ -30,9 +30,9 @@ const int ledPin = 0;
 
 const unsigned long second = 1000;
 // differentiates between two press types. for long press: t > LONG_PRESS
-const unsigned long LONG_PRESS = 5 * second;
+const unsigned long LONG_PRESS = 2 * second;
 // for short press: MIN_PRESS < t < LONG_PRESS
-const unsigned long MIN_PRESS = LONG_PRESS / 5;
+const unsigned long MIN_PRESS = second / 5;
 const int MAX_BRIGHT = 255;
 const int INCR_BRIGHT = 5;
 
@@ -41,7 +41,7 @@ const int threshold = 100;
 // number of samples to take
 const int samples = 30;
 // loop delay - affects update rate
-const int loop_time_ms = 10;
+const int loop_time_ms = 100;
 
 #include <CapacitiveSensor.h>
 
