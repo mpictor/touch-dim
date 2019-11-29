@@ -13,7 +13,7 @@
 /* connections:
  * digispark model b (onboard LED on p0)
  *
- * P0----------------|>--- (onboard, offboard LED)
+ * P0----------------|>--- (onboard, offboard LEDs)
  * P1     10M ohm
  * P2----\/\/\/\/-|--O   <-- touch point
  * P3             |
